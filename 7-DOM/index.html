@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOCUMENT OBJECT MODEL</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section class="container">
+      <p id="lists-title">Learning DOM</p>
+      <ul class="lists">
+        <li class="list">Mango</li>
+        <li class="list">Banana</li>
+        <li class="list">Cucumber</li>
+        <li class="list">Pineapple</li>
+        <li class="list">Avocado</li>
+      </ul>
+      <section class="form-container">
+        <form class="form-wrapper">
+          <div>
+            <input type="text" id="firstname" placeholder="enter firstname" />
+          </div>
+          <div>
+            <input type="text" id="lastname" placeholder="enter lastname" />
+          </div>
+          <div>
+            <input type="email" id="email" placeholder="enter email" />
+          </div>
+          <div class="password-wrapper">
+            <input type="password" id="pass" placeholder="enter password" />
+            <span id="eye" class="fa-regular fa-eye"></span>
+            <span id="eye-slash" class="fa-regular fa-eye-slash"></span>
+          </div>
+          <button type="submit" id="btn">Submit</button>
+        </form>
+      </section>
+    </section>
+
+    <script src="app1.js"></script>
+  </body>
+</html>

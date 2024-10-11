@@ -1,0 +1,15 @@
+
+
+
+.password-wrapper{
+  position: relative;
+}
+
+.fa-regular {
+  position: absolute;
+  top: 3px;
+  left: 120px;
+  /* right: 10px;
+  bottom: 10px; */
+  cursor: pointer;
+}
