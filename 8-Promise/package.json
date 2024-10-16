@@ -1,0 +1,16 @@
+{
+  "name": "8-promise",
+  "version": "1.0.0",
+  "description": "learning promise in js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "promise"
+  ],
+  "author": "alimi",
+  "license": "ISC"
+}

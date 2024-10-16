@@ -1,0 +1,20 @@
+{
+  "name": "9-asyn-await",
+  "version": "1.0.0",
+  "description": "learning how to manage asynchronous js with async and await",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "promise",
+    "async",
+    "await"
+  ],
+  "author": "alimi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
