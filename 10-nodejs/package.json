@@ -1,0 +1,23 @@
+{
+  "name": "simple-nodejs-application",
+  "version": "1.0.0",
+  "description": "creating simple nodejs application",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "npm"
+  ],
+  "author": "alimi kehinde",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
